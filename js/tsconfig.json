@@ -1,0 +1,11 @@
+{
+  "extends": "duroom-tsconfig",
+  "include": ["src/**/*"],
+  "compilerOptions": {
+    "declarationDir": "./dist-typings",
+    "baseUrl": ".",
+    "paths": {
+      "duroom/*": ["../vendor/duroom/core/js/dist-typings/*"]
+    }
+  }
+}

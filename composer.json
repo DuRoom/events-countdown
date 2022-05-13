@@ -1,0 +1,41 @@
+{
+    "name": "duroom/events-countdown",
+    "description": "Add an Events Countdown widget to DuRoom",
+    "keywords": [
+        "countdown",
+        "widget",
+        "duroom"
+    ],
+    "type": "duroom-extension",
+    "license": "MIT",
+    "require": {
+        "duroom/core": "^1.2",
+        "duroom/forum-widgets-core": "^0.1.7"
+    },
+    "require-dev": {
+        "duroom/testing": "^1.0.0",
+        "duroom/forum-widgets-core": "^0.1.7"
+    },
+    "authors": [
+        {
+            "name": "NKDuy",
+            "email": "kn145660@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "DuRoom\\EventsCountDown\\": "src/"
+        }
+    },
+    "extra": {
+        "duroom-extension": {
+            "title": "Events Countdown Widget",
+            "category": "",
+            "icon": {
+                "name": "fas fa-stopwatch-20",
+                "backgroundColor": "red",
+                "color": "white"
+            }
+        }
+    }
+}
